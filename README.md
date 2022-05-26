@@ -1,5 +1,5 @@
 # Solution
-docker run -d infracloudio/csvserver:latest
+docker run -d infracloudio/csvserver:latest\
 docker ps -a
 docker logs 702d02076734
 nano gencsv.sh
